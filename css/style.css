@@ -8,6 +8,7 @@ font-family: 'Roboto', sans-serif; */
     padding: 0;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    color: var(--bg-titulo);
 }
 
 :root {
@@ -19,11 +20,12 @@ font-family: 'Roboto', sans-serif; */
     --bg-body: #DDDCC9; /*background*/
     --bg-popup: #FEE8D0; /*pop ups como el del ícono del carrito*/
     --bg-details: #EC85A4; /*detalles*/
+    --bg-titulo : #707070; /* Titulos */
 }
 
 body{background-color: var(--bg-body);}
 
-main{min-height: 75rem;}
+main{min-height: 40rem;}
 
 header{
     height: 5rem;
@@ -197,6 +199,21 @@ header input{
     height: 3.5rem;
     width: inherit;
 }
+/* INICIO ESTILOS EQUIPO */
+
+.fuente-nunito{
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+.quienes-somos-img{
+    padding: 0rem 1rem!important;
+}
+.quienes-somos-img img, .ubicacion{
+    border-radius: 1.5rem ;
+}
+
+/* FIN ESTILOS EQUIPO */
 
 footer{
     background-color: var(--bg-secondary);
