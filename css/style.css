@@ -23,9 +23,10 @@ font-family: 'Roboto', sans-serif; */
     --bg-titulo : #707070; /* Titulos */
 }
 
-body{background-color: var(--bg-body);}
-
-main{min-height: 40rem;}
+main{
+    min-height: 40rem;
+    background-color: var(--bg-body);
+}
 
 header{
     height: 5rem;
@@ -199,6 +200,7 @@ header input{
     height: 3.5rem;
     width: inherit;
 }
+
 /* INICIO ESTILOS EQUIPO */
 
 .fuente-nunito{
@@ -206,14 +208,72 @@ header input{
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
 }
+
 .quienes-somos-img{
     padding: 0rem 1rem!important;
 }
+
 .quienes-somos-img img, .ubicacion{
     border-radius: 1.5rem ;
 }
 
 /* FIN ESTILOS EQUIPO */
+
+/* PREGUNTAS FRECUENTES */
+#faq{
+    width: 80%;
+    margin: auto;
+}
+
+button.boton-acordeon {
+    background-color: var(--bg-btn2);
+    color: #444;
+    cursor: pointer;
+    padding: 0.8rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.2rem;
+    transition: 0.4s;
+    margin-top: 2.5rem;
+}
+
+button.boton-acordeon.active, button.boton-acordeon:hover {
+    background-color: var(--bg-btn3);
+}
+
+button.boton-acordeon:after {
+    content: '\02795';
+    font-size: 0.7rem;
+    color: var(--bg-secondary);
+    float: right;
+    margin-left: 2rem;
+}
+
+button.boton-acordeon.active:after {
+    content: "\2796";
+}
+
+div.respuesta-acordeon {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    text-align: justify;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+div.respuesta-acordeon.mostrar {
+    opacity: 1;
+    max-height: 25rem;  
+}
+
+/* FIN PREGUNTAS FRECUENTES */
 
 footer{
     background-color: var(--bg-secondary);
