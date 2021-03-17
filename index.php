@@ -6,7 +6,6 @@
 ?>
 
     <main>
-        acá va la HOME
     </main>
 <?php
     include('includes/footer.php');
