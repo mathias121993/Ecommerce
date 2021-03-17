@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo TITLE; ?></title>
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <!-----GoogleFonts-------->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -31,9 +30,9 @@
       <input type="search" name="searchbar" id="searchbar" placeholder="  Buscar producto...">
 
       <div id="cart-icon" onclick="openCloseCart()">
+
         <div id="cart-img"></div>
         <div id="contador-cart"><p>2</p></div>
-      </div>
     </header>
 
     <div id="aside-social-media">
