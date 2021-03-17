@@ -36,12 +36,14 @@ function getWidthCart(){
 
 function openPopUp(){
   document.getElementById("myCart").style.width = "20rem";
-  document.getElementById("cart-img").src = "./img/icons/2024665-64.png";
+  document.getElementById("cart-img").style.transition = "background-image ease-in-out 0.8s";
+  document.getElementById("cart-img").style.backgroundImage = "url('./img/icons/2024665-64.png')";
 }
 
 function closePopUp(){
   document.getElementById("myCart").style.width = "0%";
-  document.getElementById("cart-img").src = "./img/icons/2024665-64 (1).png";
+  document.getElementById("cart-img").style.transition = "background-image ease-in-out 0.8s";
+  document.getElementById("cart-img").style.backgroundImage = "url('./img/icons/2024665-64 (1).png')";
 }
 
 // Nav en mobile e íconos de las redes sociales que se esconden al scrollear 
