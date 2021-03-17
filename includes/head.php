@@ -30,9 +30,9 @@
       <input type="search" name="searchbar" id="searchbar" placeholder="  Buscar producto...">
 
       <div id="cart-icon" onclick="openCloseCart()">
-        <img id="cart-img" src="./img/icons/2024665-64 (1).png" alt="Carrito de Compras">
-        <div id="contador-cart"><p id="contador">0</p></div>
-      </div>
+
+        <div id="cart-img"></div>
+        <div id="contador-cart"><p>2</p></div>
     </header>
 
     <div id="aside-social-media">
