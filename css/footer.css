@@ -1,0 +1,59 @@
+/* Fuentes a utilizar: 
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    color: var(--bg-titulo);
+}
+
+:root {
+    --bg-primary: #C2E0CC; /*header*/
+    --bg-secondary: #9EC8AC; /*footer*/
+    --bg-btn: #D6D6D6; /*boton enviar*/
+    --bg-btn2: #E9E9E9; /*contactanos y producto*/
+    --bg-btn3: #D9AFE5; /*producto*/
+    --bg-body: #DDDCC9; /*background*/
+    --bg-popup: #FEE8D0; /*pop ups como el del ícono del carrito*/
+    --bg-details: #EC85A4; /*detalles*/
+    --bg-titulo : #707070; /* Titulos */
+}
+body{
+    background: var(--bg-body)!important;
+}
+main{
+    min-height: 29rem;
+    background-color: var(--bg-body);
+}
+
+footer{
+    background-color: var(--bg-secondary);
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+}
+
+footer h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-shadow: 0.05rem 0.05rem black;
+    margin: auto 0;
+    color: var(--bg-btn2);
+    font-size: 2rem;
+}
+
+.logo-footer {
+    height: 3rem;
+    margin-top: 0.3rem;
+}
+  
+@media screen and (min-width: 768px) {
+    footer{position: relative;}
+}

@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    color: var(--bg-titulo);
+}
+
+:root {
+    --bg-primary: #C2E0CC; /*header*/
+    --bg-secondary: #9EC8AC; /*footer*/
+    --bg-btn: #D6D6D6; /*boton enviar*/
+    --bg-btn2: #E9E9E9; /*contactanos y producto*/
+    --bg-btn3: #D9AFE5; /*producto*/
+    --bg-body: #DDDCC9; /*background*/
+    --bg-popup: #FEE8D0; /*pop ups como el del ícono del carrito*/
+    --bg-details: #EC85A4; /*detalles*/
+    --bg-titulo : #707070; /* Titulos */
+}
+body{
+    background: var(--bg-body)!important;
+}
+main{
+    min-height: 29rem;
+    background-color: var(--bg-body);
+}
+
+.fuente-nunito{
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.quienes-somos-img{
+    padding: 0rem 1rem!important;
+}
+
+.quienes-somos-img img, .ubicacion{
+    border-radius: 1.5rem ;
+}

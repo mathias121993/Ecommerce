@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    color: var(--bg-titulo);
+}
+
+:root {
+    --bg-primary: #C2E0CC; /*header*/
+    --bg-secondary: #9EC8AC; /*footer*/
+    --bg-btn: #D6D6D6; /*boton enviar*/
+    --bg-btn2: #E9E9E9; /*contactanos y producto*/
+    --bg-btn3: #D9AFE5; /*producto*/
+    --bg-body: #DDDCC9; /*background*/
+    --bg-popup: #FEE8D0; /*pop ups como el del ícono del carrito*/
+    --bg-details: #EC85A4; /*detalles*/
+    --bg-titulo : #707070; /* Titulos */
+}
+body{
+    background: var(--bg-body)!important;
+}
+main{
+    min-height: 29rem;
+    background-color: var(--bg-body);
+}
+
+#faq{
+    width: 80%;
+    margin: auto;
+}
+
+button.boton-acordeon {
+    background-color: var(--bg-btn2);
+    color: #444;
+    cursor: pointer;
+    padding: 0.8rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.2rem;
+    transition: 0.4s;
+    margin-top: 2.5rem;
+}
+
+button.boton-acordeon.active, button.boton-acordeon:hover {
+    background-color: var(--bg-btn3);
+}
+
+button.boton-acordeon:after {
+    content: '\02795';
+    font-size: 0.7rem;
+    color: var(--bg-secondary);
+    float: right;
+    margin-left: 2rem;
+}
+
+button.boton-acordeon.active:after {
+    content: "\2796";
+}
+
+div.respuesta-acordeon {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    text-align: justify;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+div.respuesta-acordeon.mostrar {
+    opacity: 1;
+    max-height: 25rem;  
+}
