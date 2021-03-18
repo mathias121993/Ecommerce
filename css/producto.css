@@ -1,0 +1,85 @@
+:root {
+    --bg-primary: #C2E0CC; /*header*/
+    --bg-secondary: #9EC8AC; /*footer*/
+    --bg-btn: #D6D6D6; /*boton enviar*/
+    --bg-btn2: #E9E9E9; /*contactanos y producto*/
+    --bg-btn3: #D9AFE5; /*producto*/
+    --bg-body: #DDDCC9; /*background*/
+    --bg-popup: #FEE8D0; /*pop ups como el del ícono del carrito*/
+    --bg-details: #EC85A4; /*detalles*/
+    --bg-titulo : #707070; /* Titulos */
+}
+.contedor-producto-desktop{
+    display: none;
+}
+.contedor-producto-desktop article{
+    width: 50%;
+    text-align: center;
+    padding: 1.5rem;
+}
+.contedor-producto {
+    background: var(--bg-body);
+    text-align: center;
+    padding: 1rem 1rem;
+    width: 90%;
+    height: auto;
+    margin: 0.5rem auto;
+    border: 1px solid grey;
+    border-radius: 15px;
+
+}
+.producto-precio{
+    font-size: 1.6rem!important;
+}
+.producto-button{
+    background: var(--bg-btn3);
+    border:1px solid grey;
+    padding: 0.5rem;
+    border-radius: 5px;
+    outline: none;
+    margin: 0.5rem auto;
+}
+
+.producto-img{
+    width: 15rem;
+    margin: 1rem auto;
+}
+.producto-img img{
+    width: 100%;
+    margin:0 auto;
+    border-radius: 15px;
+}
+@media (max-width: 928px ) and (min-width: 768px){
+    .contedor-producto-desktop{
+        margin: 2rem auto;
+        display: flex;
+        width: 90%;
+        height: auto;
+        border: 1px solid grey;
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+    .contedor-producto-desktop .producto-img{
+        width: 17rem;
+    }
+    .contedor-producto{
+        display: none;
+    }
+}
+@media (min-width: 929px){
+    .contedor-producto-desktop{
+        margin: 2rem auto;
+        display: flex;
+        width: 80%;
+        height: auto;
+        border: 1px solid grey;
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+    .contedor-producto-desktop .producto-img{
+        width: 17rem;
+    }
+    .contedor-producto{
+        display: none;
+    }
+}

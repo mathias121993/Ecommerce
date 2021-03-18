@@ -22,9 +22,11 @@ font-family: 'Roboto', sans-serif; */
     --bg-details: #EC85A4; /*detalles*/
     --bg-titulo : #707070; /* Titulos */
 }
-
+body{
+    background: var(--bg-body)!important;
+}
 main{
-    min-height: 40rem;
+    min-height: 29rem;
     background-color: var(--bg-body);
 }
 
