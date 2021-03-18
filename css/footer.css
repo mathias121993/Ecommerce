@@ -22,13 +22,6 @@ font-family: 'Roboto', sans-serif; */
     --bg-details: #EC85A4; /*detalles*/
     --bg-titulo : #707070; /* Titulos */
 }
-body{
-    background: var(--bg-body)!important;
-}
-main{
-    min-height: 29rem;
-    background-color: var(--bg-body);
-}
 
 footer{
     background-color: var(--bg-secondary);
@@ -36,7 +29,7 @@ footer{
     height: 4rem;
     display: flex;
     justify-content: center;
-    position: sticky;
+    position: fixed;
     bottom: 0;
 }
 
@@ -53,7 +46,7 @@ footer h1{
     height: 3rem;
     margin-top: 0.3rem;
 }
-  
+
 @media screen and (min-width: 768px) {
     footer{position: relative;}
 }

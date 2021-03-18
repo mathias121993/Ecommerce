@@ -18,13 +18,6 @@
     --bg-details: #EC85A4; /*detalles*/
     --bg-titulo : #707070; /* Titulos */
 }
-body{
-    background: var(--bg-body)!important;
-}
-main{
-    min-height: 29rem;
-    background-color: var(--bg-body);
-}
 
 #faq{
     width: 80%;

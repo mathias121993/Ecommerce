@@ -9,6 +9,7 @@
     --bg-details: #EC85A4; /*detalles*/
     --bg-titulo : #707070; /* Titulos */
 }
+
 .contedor-producto-desktop{
     display: none;
 }

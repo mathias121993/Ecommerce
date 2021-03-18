@@ -21,6 +21,7 @@
 body{
     background: var(--bg-body)!important;
 }
+
 main{
     min-height: 29rem;
     background-color: var(--bg-body);
