@@ -32,7 +32,7 @@
       <div id="cart-icon" onclick="openCloseCart()">
 
         <div id="cart-img"></div>
-        <div id="contador-cart"><p>2</p></div>
+        <div id="contador-cart"><p id="contador" ></p></div>
     </header>
 
     <div id="aside-social-media">

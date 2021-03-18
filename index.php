@@ -6,6 +6,8 @@
 ?>
 
     <main>
+    <button onclick="carritoSumar()">sumar</button>
+    <button onclick="carritoRestar()">restar</button>
     </main>
 <?php
     include('includes/footer.php');

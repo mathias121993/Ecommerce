@@ -1,27 +1,39 @@
 // Funciones que abren y cierran el menú mobile (funciona similar a la del carrito)
 
-contador = 0;
+
+localStorage.myItem;
+console.log(localStorage.myItem)
+
+function createMyItem(){
+  if(localStorage.myItem){
+    return
+  }else{
+    localStorage.setItem("myItem",0);
+  }
+}
 
 function contadorCarrito(contador) {
+  console.log(contador);
   var variable = document.getElementById("contador");
   variable.innerHTML = contador;
 }
 
 function carritoSumar() {
-    contador ++;
+  localStorage.myItem ++;
+   
 }
 
 
 function carritoRestar() {
 
-  if(contador == 0){
+  if(localStorage.myItem == 0){
     return
   }else{
-    contador --;
+    localStorage.myItem --;
   }
 }
 
 
   
-
-  setInterval(function(){ contadorCarrito(contador); }, 200);
+createMyItem();
+setInterval(function(){ contadorCarrito(localStorage.myItem); }, 200);
