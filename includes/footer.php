@@ -8,6 +8,7 @@
     <script src="js/menu-mobile.js"></script>
     <script src="js/cart-popup.js"></script>
     <script src="js/faq-acordeon.js"></script>
+    <script src="js/carousel-index.js"></script>
     <script src="js/script.js"></script>
     <!-------- JS de Bootstrap------->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"

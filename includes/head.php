@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/faq.css">
     <link rel="stylesheet" href="css/equipo.css">
+    <link rel="stylesheet" href="css/inicio.css">
     <!-----GoogleFonts-------->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <!-----Bootstrap-------->
