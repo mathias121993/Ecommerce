@@ -1,0 +1,84 @@
+:root {
+    --bg-primary: #C2E0CC; /*header*/
+    --bg-secondary: #9EC8AC; /*footer*/
+    --bg-btn: #D6D6D6; /*boton enviar*/
+    --bg-btn2: #E9E9E9; /*contactanos y producto*/
+    --bg-btn3: #D9AFE5; /*producto*/
+    --bg-body: #DDDCC9; /*background*/
+    --bg-popup: #FEE8D0; /*pop ups como el del ícono del carrito*/
+    --bg-details: #EC85A4; /*detalles*/
+    --bg-titulo : #707070; /* Titulos */
+}
+
+/* Slideshow container */
+.carousel {
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+/* Img ocultas por default */
+.ocultas {
+    display: none;
+    height: 100%;
+}
+
+/* Botones carousel */
+.carousel-anterior, .carousel-siguiente {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* El botón de siguiente va a la derecha */
+.carousel-siguiente {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.carousel-anterior:hover, .carousel-siguiente:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Puntos/bullets */
+.carousel-punto {
+    cursor: pointer;
+    height: 1rem;
+    width: 1rem;
+    margin: 0 0.1rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .carousel-punto:hover {
+    background-color: #717171;
+}
+
+/* Animación tipo fading */
+.animacion-carousel {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
