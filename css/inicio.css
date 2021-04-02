@@ -15,12 +15,37 @@
     width: 90%;
     position: relative;
     margin: auto;
+    height: 20rem;
 }
 
-/* Img ocultas por default */
+/* Img ocultas por default (menos la que se muestra) */
 .ocultas {
     display: none;
     height: 100%;
+}
+
+.uno{
+    background-image: url('https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg');
+    background-position: center;
+    background-size: cover; /* ¿¿¿cover o contain??? (líneas 30, 38 y 46)*/
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.dos{
+    background-image: url('https://1.bp.blogspot.com/-JREhSKN8sMM/VmH2B-jmFXI/AAAAAAAAIzg/ScNtA185M88/s1600/02273%2Bpaisajes01.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.tres{
+    background-image: url('https://www.blogartesvisuales.net/wp-content/uploads/2008/07/fotografia-paisaje-01.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 /* Botones carousel */

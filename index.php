@@ -10,16 +10,16 @@
     <button onclick="carritoRestar()">restar</button> -->
 
         <div class="carousel">
-            <div class="ocultas animacion-carousel">
-                <img src="https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg" style="height:100%;"> 
+            <div class="ocultas animacion-carousel uno">
+                <!-- <img src="https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg" style="height:100%;">  -->
             </div>
 
-            <div class="ocultas animacion-carousel">
-                <img src="https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg" style="height:100%;">  
+            <div class="ocultas animacion-carousel dos">
+                <!-- <img src="https://1.bp.blogspot.com/-JREhSKN8sMM/VmH2B-jmFXI/AAAAAAAAIzg/ScNtA185M88/s1600/02273%2Bpaisajes01.jpg" style="height:100%;">   -->
             </div>
 
-            <div class="ocultas animacion-carousel">
-                <img src="https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg" style= "height:100%;">
+            <div class="ocultas animacion-carousel tres">
+                <!-- <img src="https://www.blogartesvisuales.net/wp-content/uploads/2008/07/fotografia-paisaje-01.jpg" style= "height:100%;"> -->
             </div>
 
             <!-- Botones que mueven el carousel -->
