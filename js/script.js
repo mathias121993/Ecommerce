@@ -36,4 +36,5 @@ function carritoRestar() {
 
   
 createMyItem();
-setInterval(function(){ contadorCarrito(localStorage.myItem); }, 200);
+contadorCarrito(localStorage.myItem);
+setInterval(function(){ contadorCarrito(localStorage.myItem); }, 1000);

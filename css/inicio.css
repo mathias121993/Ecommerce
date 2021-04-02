@@ -16,6 +16,7 @@
     position: relative;
     margin: auto;
     height: 20rem;
+    margin-top: 2rem;
 }
 
 /* Img ocultas por default (menos la que se muestra) */
