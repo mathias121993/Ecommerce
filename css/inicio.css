@@ -19,7 +19,7 @@
 }
 
 /* Img ocultas por default (menos la que se muestra) */
-.ocultas {
+.img-carousel-ocultas {
     display: none;
     height: 100%;
 }
