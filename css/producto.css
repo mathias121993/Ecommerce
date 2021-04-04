@@ -50,6 +50,7 @@
     margin:0 auto;
     border-radius: 15px;
 }
+
 @media (max-width: 928px ) and (min-width: 768px){
     .contedor-producto-desktop{
         margin: 2rem auto;
@@ -67,6 +68,7 @@
         display: none;
     }
 }
+
 @media (min-width: 929px){
     .contedor-producto-desktop{
         margin: 2rem auto;
