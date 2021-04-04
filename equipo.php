@@ -6,7 +6,7 @@
 ?>
 
 <main class="container-fluid">
-		<section class="row text-center pt-5">
+		<section class="row text-center">
             <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 px-0  mx-0 quienes-somos-img">
                 <img src="img/cesto.jpeg" alt="" class="img-fluid w-50 ">
             </div>
