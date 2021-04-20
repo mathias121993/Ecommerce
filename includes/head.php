@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/producto.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/carrito.css">
     <link rel="stylesheet" href="css/faq.css">
     <link rel="stylesheet" href="css/equipo.css">
     <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <!-----GoogleFonts-------->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <!-----Bootstrap-------->
@@ -33,7 +35,7 @@
 
       <a href="./index.php"><div id="oveja-nav"><img src="./img/oveja.png" alt="Oveja del logo"></div></a>
 
-      <input type="search" name="searchbar" id="searchbar" placeholder="  Buscar producto...">
+      <input type="search" name="searchbar" id="searchbar" placeholder="Buscar producto...">
 
       <div id="cart-icon" onclick="openCloseCart()">
 
