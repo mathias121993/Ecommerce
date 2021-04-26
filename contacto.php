@@ -9,7 +9,7 @@
     <section id="formulario">
         <h2 style="text-align: center; font-family: 'Nunito', sans-serif;">¡Contactate con nosotros!</h2>
 
-        <form action="form.php" method="GET" id="contact-form">
+        <form action="controllers/storeEmails.php" method="post" id="contact-form">
 
         <label for="name">Nombre: </label><input type="text" name="name" id="name-form" requested placeholder="Cosme Fulanito" minlength="4" spellcheck="false"> <!-- Nombres -->
 
